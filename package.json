@@ -1,0 +1,45 @@
+{
+  "name": "gehraiyaan-frontend",
+  "version": "1.0.0",
+  "description": "Premium video fact-checking application frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@xenova/transformers": "^2.17.2",
+    "axios": "^1.11.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "form-data": "^4.0.4",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.302.0",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "swr": "^2.2.4",
+    "tailwind-merge": "^2.6.0",
+    "typescript": "^5.3.3",
+    "youtube-captions-scraper": "^2.0.3",
+    "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^15.0.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}
