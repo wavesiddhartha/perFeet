@@ -120,8 +120,7 @@ export class ActualVideoProcessor {
           try {
             console.log(`  Trying language: ${lang}`)
             const transcript = await YoutubeTranscript.fetchTranscript(videoUrl, {
-              lang: lang,
-              country: lang.includes('-') ? lang.split('-')[1] : 'US'
+              lang: lang
             })
             
             if (transcript && transcript.length > 0) {

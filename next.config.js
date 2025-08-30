@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
     serverComponentsExternalPackages: ['@prisma/client'],
   },
   images: {
@@ -64,10 +63,6 @@ const nextConfig = {
     }
 
     return config
-  },
-  // Enable bundle analyzer in development
-  bundleAnalyzer: {
-    enabled: process.env.ANALYZE === 'true',
   },
 }
 
